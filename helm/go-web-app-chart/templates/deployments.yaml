@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: go-webapp
-        image: kanchandock/gowebapp:{{ .Values.image.tag }}
+        image: kanchandock/go-webapp:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
       imagePullSecrets:
