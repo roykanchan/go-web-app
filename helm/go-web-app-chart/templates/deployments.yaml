@@ -19,3 +19,5 @@ spec:
         image: kanchandock/gowebapp:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+        - name: dockerhub-secret
