@@ -8,7 +8,7 @@ image:
   repository: kanchandock/gowebapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "19011103119"
+  tag: "19011118753"
 
 ingress:
   enabled: false
