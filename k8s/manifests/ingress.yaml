@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: go-webapp.local #this host is not in use
+  - host: go-webapp.local #this host is not in use at present
     http:
       paths:
       - pathType: Prefix
